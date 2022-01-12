@@ -10,6 +10,7 @@ def delete(sub):
                 os.remove(fpath)
                 print(s,"is deleted sucessfully")
 
+# driver code
 path=input("Enter Path: ")
 lst = os.listdir(path)
 print(lst)
