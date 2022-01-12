@@ -3,7 +3,6 @@ import os
 path=input("Enter Path: ")
 lst = os.listdir(path)
 
-
 sub= input("enter substring: ")
 print(lst)
 
